@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Curriculum Vitae Builder</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+    
+<body>
+    
+    
+    <div class="jumbotron text-center">
+        <h1>Curriculum Vitae Builder</h1> 
+    </div>
+    
+    <br>
+  
+<div class="container">
+<form action="" target="_blank">
+<table class="table table-bordered group-form"> 
+    <h3><b>Personal Data</b></h3>
+<tr>
+<td>
+    <label for="name">Name</label>
+</td>
+<td>
+    <input type="text" id="name" name="name">
+</td>
+    <td>
+        <label for="fname">Father's Name</label> 
+    </td>
+    <td> 
+        <input type="text" id="fname" name="fname">
+    </td>
+</tr>
+    
+    <tr>
+<td>
+    <label for="dob">Date of Birth</label>
+</td>
+<td>
+    <input type="date" id="dob" name="dob">
+</td>
+        <td> <label for="gender">Gender</label></td>
+        <td> 
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"> 
+            <label for="female">Female</label>
+        </td>
+    </tr>
+    <tr>
+<td>
+    <label for="rel">Religon</label>
+</td>
+<td>
+    <input type="text" id="rel" name="rel">
+</td>
+        <td><label for="nic">CNIC</label> </td>
+        <td> <input type="text" id="nic" name="nic"> </td>
+    </tr>
+    <tr>
+<td>
+    <label for="status">Martial Status</label>
+</td>
+<td>
+    <input type="text" id="status" name="status">
+</td>
+        <td> <label for="nat">Nationality</label> </td>
+        <td><input type="text" id="nat" name="nat"></td>
+    </tr>
+     <tr>
+<td>
+    <label for="num">Phone Number</label>
+</td>
+<td>
+    <input type="text" id="num" name="num">
+</td>
+        <td><label for="email">E-mail</label></td>
+        <td><input type="email" id="email" name="email"></td>
+    </tr>
+    <tr>
+<td>
+    <label for="num">Address</label>
+</td>
+<td>
+    <textarea id="textarea" name="textarea" rows="3" cols="40">
+  </textarea>
+</td>
+    </tr>
+    <tr>
+        <td align="center" ><input type="button" onclick="alert('Do you want to build your CV?')" value="Submit">
+        </td>
+    </tr>
+    </table>
+    </form>
+    </div>
+    
+    
+    
+    <br>
+    
+    
+    
+    <div class="container">
+        <h3><b>Languages</b></h3>
+        
+       <form action="" target="_blank">
+           <table class="table table-bordered group-form">
+               <tr>
+<td>
+    <label for="Languages">Choose Languages:</label>
+</td>
+<td>
+    <select name="Languages" id="lang">
+    <option value="English">eng</option>
+    <option value="Urdu">urd</option>
+    <option value="French">fren</option>
+    <option value="Spanish">Span</option>
+  </select>
+</td>
+    <td>
+        <label for="fname">Other Local Languages</label> 
+    </td>
+    <td> 
+        <input type="text" id="myear" name="myear">
+    </td>
+               </tr>
+               
+           </table>
+        </form>
+    </div>
+    
+    
+    
+    
+   <div class="container">
+       <form action="" target="_blank">
+           <table class="table table-bordered group-form">
+               <br>
+                <h3><b>Educational Data</b></h3>
+               
+               
+               <tr>
+<td>
+    <label for="name">Name of Matriculation Institute</label>
+</td>
+<td>
+    <input type="text" id="matric" name="inst">
+</td>
+    <td>
+        <label for="fname">Year of Matriculation</label> 
+    </td>
+    <td> 
+        <input type="text" id="myear" name="myear">
+    </td>
+    <td>
+        <label for="fname">Field</label> 
+    </td>
+    <td> 
+        <input type="text" id="mf" name="myear">
+    </td>
+               </tr>
+               
+               <tr>
+<td>
+    <label for="name">Name of Intermidiate Institute</label>
+</td>
+<td>
+    <input type="text" id="inter" name="inst">
+</td>
+    <td>
+        <label for="fname">Year of Intermidiate</label> 
+    </td>
+    <td> 
+        <input type="text" id="iyear" name="myear">
+    <td>
+        <label for="fname">Field</label> 
+    </td>
+    <td> 
+        <input type="text" id="if" name="myear">
+    </td>
+               </tr>
+               
+               <tr>
+<td>
+    <label for="name">Name of Graduation Institute</label>
+</td>
+<td>
+    <input type="text" id="grad" name="inst">
+</td>
+    <td>
+        <label for="fname">Year of Graduation</label> 
+    </td>
+    <td> 
+        <input type="text" id="gyear" name="myear">
+    </td>
+    <td>
+        <label for="fname">Field</label> 
+    </td>
+    <td> 
+        <input type="text" id="gf" name="myear">
+    </td>
+    
+               </tr>
+               
+               <tr>
+<td>
+    <label for="name">Name of Post Graduate Degree</label>
+</td>
+<td>
+    <input type="text" id="pg" name="inst">
+</td>
+    <td>
+        <label for="fname">Year </label> 
+    </td>
+    <td> 
+        <input type="text" id="pgyear" name="myear">
+    </td>
+     <td>
+        <label for="fname">Field</label> 
+    </td>
+    <td> 
+        <input type="text" id="pgf" name="myear">
+    </td>
+               </tr>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+           </table>
+       </form> 
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
